@@ -144,3 +144,22 @@ a[href="#prodotti"] {
   padding: 30px 0;
   text-align: center;
 }
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+}
+a[href="#footer-button"] {
+  color: white;
+}
+
+a[href="#lista2"] {
+  display: block;
+  color: white;
+}
+
+a[href="#lista3"] {
+  color: white;
+  
+}
