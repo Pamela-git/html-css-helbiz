@@ -5,19 +5,13 @@
 }
 
 body {
-  font-family: Open Sans,Segoe UI,Tahoma,sans-serif;
+  font-family: 'Epilogue', sans-serif
 }
 /* debug */
 [class*="col-"] {
-  background-color: pink;
-  min-height: 100px;
-  border: 1px solid black;
-}
-
-
-/* per nav fisso */
-header {
-  padding-top: 100px;
+  /* background-color: pink; */
+  /* min-height: 100px; */
+  /* border: 1px solid black; */
 }
 
 /* per centrare footer e header */
@@ -42,7 +36,65 @@ header {
   z-index: 900;
 }
 
+
+/* Header */
+
+/* per nav fisso */
+header {
+  padding-top: 100px;
+}
+
+/* link helbiz */
+
+#bottone {
+  padding-top: 25px;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Epilogue', sans-serif;
+}
+
+#list {
+  padding-top: 30px;
+  text-align: center;
+}
+
+a[href="#listati"] {
+  margin: 0 3px;
+  font-size: 15px;
+}
+
+a[href="#listati-bordo"] {
+  border-right: 1px solid black;
+  padding: 5px;
+}
+
+/* jumbotron */
 #jumbo {
   padding-top: 50px;
-  min-height: 300px;
+  min-height: 400px;
+  background-image: url("../img/jumbo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#jumbo-text {
+  color: white;
+  text-align: center;
+  margin: 5% 0;
+}
+
+#jumbo-text h5 {
+  margin-top: 10px;
+}
+
+.jumbo-store {
+  margin: 10% 0;
+}
+a[href="#store"] > img {
+  max-width: 100%;
 }
