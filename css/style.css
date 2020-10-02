@@ -98,3 +98,49 @@ a[href="#listati-bordo"] {
 a[href="#store"] > img {
   max-width: 100%;
 }
+
+.prodotti {
+  text-align: center;
+}
+
+a[href="#prodotti"] {
+  display: block;
+  color: blue;
+}
+
+.prodotti > img {
+  max-height: 340px;
+}
+
+/* section phone swipe */
+
+#phone-swipe-top > img {
+  max-width: 100%;
+}
+.phone-swipe > img {
+  max-height: 200px;
+}
+
+
+/* sezione pubblicità */
+
+#pubblicità-top > img {
+  max-width: 100%;
+}
+
+
+/* sezione pachwork */
+
+.pachwork{
+  background-image: url("../img/pachwork.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.pachwork-text {
+  background-color: white;
+  margin-top: 70px;
+  padding: 30px 0;
+  text-align: center;
+}
