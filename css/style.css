@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Open Sans,Segoe UI,Tahoma,sans-serif;
+}
+/* debug */
+[class*="col-"] {
+  background-color: pink;
+  min-height: 100px;
+  border: 1px solid black;
+}
+
+
+/* per nav fisso */
+header {
+  padding-top: 100px;
+}
+
+/* per centrare footer e header */
+.centratura1{
+  padding: 0 10%;
+}
+
+.centratura2 {
+  padding: 0 5%;
+}
+
+.margin-top{
+  margin-top: 3%;
+}
+
+/* nav fisso */
+#nav-large {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900;
+}
+
+#jumbo {
+  padding-top: 50px;
+  min-height: 300px;
+}
