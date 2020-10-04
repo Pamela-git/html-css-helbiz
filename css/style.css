@@ -8,14 +8,6 @@
   font-family: 'Epilogue', sans-serif;
 }
 
-/* debug */
-[class*="col-"] {
-  /* background-color: pink; */
-  /* min-height: 100px; */
-  /* border: 1px solid black; */
-}
-
-
 
 /* per centrare footer e header */
 .centratura1{
@@ -48,7 +40,7 @@ header {
   padding-top: 100px;
 }
 
-/* link helbiz */
+/* link nav helbiz */
 
 #bottone {
   padding-top: 25px;
@@ -80,7 +72,7 @@ a[href="#listati-bordo"] {
 /* jumbotron */
 #jumbo {
   padding-top: 50px;
-  min-height: 400px;
+  height: 400px;
   background-image: url("../img/jumbo.jpg");
   background-size: cover;
   background-position: center;
@@ -103,6 +95,7 @@ a[href="#store"] > img {
   max-width: 100%;
 }
 
+/* sezione prodotti */
 .prodotti {
   text-align: center;
 }
@@ -130,6 +123,7 @@ a[href="#prodotti"] {
   background-size: cover;
 }
 
+/* settaggi immagine iphone sovrapposto al background */
 .phone-swipe-center {
   margin-top: 20%;
   height: 100px;
@@ -148,6 +142,7 @@ a[href="#prodotti"] {
 
 /* sezione pubblicità */
 
+/* sezione pubblicità superiore */
 #pubblicità-top {
   background-image: url("../img/scooter.jpg");
   background-size: cover;
@@ -164,11 +159,13 @@ a[href="#prodotti"] {
   margin: 20px 0;
 }
 
+/* sezione pubblicità inferiore */
 .pubblicità-bottom {
   text-align: center;
   color: white;
-  padding-top: 20px;
+  padding-top: 50px;
 }
+
 .left {
     background: linear-gradient(#41566a,#252f38);
     margin-right: 10px;
@@ -185,6 +182,7 @@ a[href="#pubblicità"] {
   color: white;
 }
 
+/* img pubblicità left */
 #iphone {
   text-align: center;
 }
@@ -201,7 +199,7 @@ a[href="#pubblicità"] {
   height: 300px;
 }
 
-.pachwork-text {
+#pachwork-text {
   background-color: white;
   margin-top: 70px;
   padding: 30px 0;
@@ -218,6 +216,7 @@ footer {
   padding-top: 50px;
 }
 
+/* liste */
 a[href="#footer-button"] {
   color: white;
 }
@@ -229,5 +228,116 @@ a[href="#lista2"] {
 
 a[href="#lista3"] {
   color: white;
+}
+
+/* media query xs */
+@media all and (max-width: 768px) {
+  #jumbo-text {
+    font-size: 20px;
+  }
+
+  .prodotti > img {
+    width: 300px;
+  }
+
+  .prodotti {
+    font-size: 20px;
+  }
+
+  .old-phone {
+    height: 200px;
+  }
+
+  .phone-swipe-center > img {
+    width: 200px;
+  }
+
+  #phone-sx {
+    font-size: 40px;
+  }
+
+  #phone-dx {
+    font-size: 20px;
+  }
+
+  .pubblicità-bottom {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  #pachwork-text {
+    font-size: 50px;
+  }
+
+  .footer-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #bottone-footer {
+    text-align: center;
+  }
+  a[href="#footer-button"] {
+    font-size: 30px;
+  }
+
+  #icons {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .conditions {
+    text-align: center;
+  }
+
+}
+
+
+/* media query md */
+@media all and (min-width: 769px) and (max-width: 992px) {
+  #jumbo-text {
+    font-size: 30px;
+  }
+
+  .old-phone {
+    height: 300px;
+  }
+
+  .phone-swipe-center > img {
+    width: 200px;
+  }
+
+
+  #phone-sx {
+    font-size: 40px;
+  }
+
+  #phone-dx {
+    font-size: 20px;
+  }
+
+  #pachwork-text {
+    font-size: 30px;
+  }
+
+  .footer-list {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #bottone-footer {
+    text-align: center;
+  }
+
+  #icons {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .conditions {
+    text-align: center;
+  }
 
 }
