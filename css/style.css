@@ -123,7 +123,7 @@ a[href="#prodotti"] {
 
 /* section phone swipe */
 
-#phone-swipe-top  {
+.old-phone {
   background-image: url("../img/anziano.jpg");
   height:500px;
   background-position: bottom;
@@ -131,9 +131,20 @@ a[href="#prodotti"] {
 }
 
 .phone-swipe-center {
-  position: relative;
+  margin-top: 20%;
+  height: 100px;
+  text-align: center;
 }
 
+#phone-sx {
+  text-align: center;
+  font-size:25px;
+  font-weight: bold;
+}
+
+#phone-dx {
+  text-align: center;
+}
 
 /* sezione pubblicità */
 
@@ -160,13 +171,14 @@ a[href="#prodotti"] {
 }
 .left {
     background: linear-gradient(#41566a,#252f38);
+    margin-right: 10px;
 }
 
 .right {
   background-image: url("../img/city.jpg");
   background-size: cover;
   background-position: center;
-  height: 286px;
+  height: 281px;
 }
 
 a[href="#pubblicità"] {
