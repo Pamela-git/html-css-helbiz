@@ -98,6 +98,11 @@ a[href="#store"] > img {
 /* sezione prodotti */
 .prodotti {
   text-align: center;
+  background-color: rgb(250, 250, 250);
+}
+
+.sinistro {
+  margin-right: 20px;
 }
 
 .prodotti span {
