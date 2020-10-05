@@ -130,6 +130,10 @@ a[href="#prodotti"] {
   text-align: center;
 }
 
+.phone-swipe-center > img {
+  height: 400px;
+}
+
 #phone-sx {
   text-align: center;
   font-size:25px;
